@@ -1,12 +1,13 @@
 {
-    "manifest_version": 2,
-    "name": "Udemy ChatGPT",
-    "version": "1.0.0",
-    "description": "Extrae la transcripcion de un video y la envia a chatgpt para realizar resumen y preguntas",
-    "permissions": ["activeTab"],
-    "browser_action": {
-      "default_title": "Copiar texto",
-      "default_popup": "popup.html"
-    }
+  "manifest_version": 2,
+  "name": "Udemy ChatGPT",
+  "version": "1.0.0",
+  "description": "Obtén automáticamente el resumen de los cursos de Udemy con la ayuda de la inteligencia artificial de ChatGPT.",
+  "permissions": ["activeTab", "tabs"],
+  "browser_action": {
+  },
+  "background": {
+    "scripts": ["background.js"]
   }
   
+}
